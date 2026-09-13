@@ -14,7 +14,7 @@ Public visuals use synthetic records and document illustrations; metrics are ill
 
 Checkpoint: 12 September 2026. This site presents an ongoing refinement of Sumukh's original Figma projects. It is a work log, not a claim that the portfolio is finished.
 
-## Healthcare workflow mock`n`n[Open the healthcare Figma mock](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Read the GitHub case study](https://github.com/Eskstrom/healthcare-ai-workflows)`n`n## Access the checkpoint
+## Healthcare workflow mock`r`n`r`n[Open the healthcare Figma mock](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2) · [Read the GitHub case study](https://github.com/Eskstrom/healthcare-ai-workflows)`r`n`r`n## Access the checkpoint
 
 - **[Open the checkpoint website](https://eskstrom.github.io/figma-portfolio-checkpoint/)**: browse project status and open each Figma design.
 - **[Read the detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint#projects-and-changes)**: inspect changes, frame-level links and verification notes.
@@ -93,6 +93,7 @@ At checkpoint, Figma Starter MCP calls were exhausted. Figma Make also reported 
 ## Website
 
 `docs/index.html` is a dependency-free GitHub Pages progress hub. Publish from the main branch `/docs` directory. The source of record for detailed changes is this README; update both the website and log as remaining work is completed.
+
 
 
 
