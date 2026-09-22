@@ -1,0 +1,5 @@
+.firecrawl/
+.qa/
+node_modules/
+*.log
+
