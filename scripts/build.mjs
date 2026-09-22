@@ -25,6 +25,12 @@ function card(p, i) {
 }
 await mkdir(path.join(out, 'assets'), { recursive: true });
 await cp(path.join(root, 'src/assets'), path.join(out, 'assets'), { recursive: true });
+// Preserve the approved concept pixels: an SVG viewport frames only its main face.
+// No tracing, recoloring, filters, or raster resampling are applied to the source.
+const sentinelOriginal = await readFile(path.join(root, 'src/brand/orbital-sentinel-original.png'));
+const sentinelImage = `<image width="1254" height="1254" href="data:image/png;base64,${sentinelOriginal.toString('base64')}"/>`;
+await writeFile(path.join(out, 'assets/sentinel.svg'), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="320 118 610 775">${sentinelImage}</svg>`);
+await writeFile(path.join(out, 'assets/favicon.svg'), `<svg xmlns="http://www.w3.org/2000/svg" viewBox="237.5 118 775 775">${sentinelImage}</svg>`);
 await writeFile(path.join(out, '.nojekyll'), '');
 const featured = projects.filter(p => p.featured);
 const flagship = featured[0];
