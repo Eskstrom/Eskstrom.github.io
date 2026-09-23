@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 44" fill="none">
+  <title>SG underscore monogram</title>
+  <g stroke="#e8eef8" stroke-width="4" stroke-linejoin="bevel">
+    <path d="M27 8H12L7 13V18L12 22H22L27 27V31L22 36H7"/>
+    <path d="M56 8H40L35 13V31L40 36H56V24H47"/>
+  </g>
+  <path d="M62 36H76" stroke="#65d9ff" stroke-width="4"/>
+</svg>
