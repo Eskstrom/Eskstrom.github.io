@@ -47,3 +47,23 @@ The site remains readable without JavaScript; JavaScript adds category filtering
 Every project displays its artifact status. Concepts are proposals; implementations contain source code. Neither implies validated outcomes. Healthcare visuals use synthetic information and illustrative metrics.
 
 See [repository organization](notes/REPOSITORY-ORGANIZATION.md) and [sanity-check report](notes/PROJECT-AUDIT.md).
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Maintain the canonical portfolio.
+
+Use four to six selected cases to present a coherent healthcare, AI and growth narrative.
+
+### Next scope
+
+- [ ] Lead with healthcare workflow review and add shareable AI product/evaluation evidence when ready.
+- [ ] Select one growth story; move unimplemented concepts into a secondary library.
+- [ ] Before retiring a linked repo, update src/projects.mjs and the project index, rebuild generated pages, and check links.
+
+### Validation and decision criteria
+
+Run the existing build and link checks when changing site content. A reader should be able to identify the user problem, personal contribution, product decision, evidence and next question for each featured case.
+<!-- portfolio-future-plans:end -->
