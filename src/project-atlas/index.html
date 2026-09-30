@@ -23,7 +23,8 @@
 const data=JSON.parse(document.getElementById('project-data').textContent), repos=data.repositories;
 const $=id=>document.getElementById(id);
 let selected=null;
-function el(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e}
+function displayText(text){return String(text).replace(/[\u2013\u2014]/g,'-')}
+function el(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=displayText(text);if(cls)e.className=cls;return e}
 function safeLink(url,label){const a=el('a',label);try{const u=new URL(url);if(u.protocol==='https:'&&u.hostname==='github.com'){a.href=u.href;a.target='_blank';a.rel='noopener noreferrer'}}catch{}return a}
 function badge(text,privateFlag=false){return el('span',text,'badge'+(privateFlag?' private':''))}
 function option(value){const o=el('option',value);o.value=value;return o}

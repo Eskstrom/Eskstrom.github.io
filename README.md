@@ -1,6 +1,6 @@
-# Sumukh Gadavilli — Product, Design & Play
+# Sumukh Gadavilli: Product, Design & Play
 
-## Project Atlas — an additional exploration route
+## Project Atlas: an additional exploration route
 
 [Explore the public project map](https://eskstrom.github.io/project-atlas/) · [Vector vs graph: advantages and tradeoffs](https://eskstrom.github.io/project-atlas/tradeoffs.html)
 

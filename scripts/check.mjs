@@ -22,6 +22,7 @@ for(const file of files.filter(f=>f.endsWith('.html'))){
   for(const match of html.matchAll(/<img\b[^>]*>/g))if(!/\balt="[^"]+"/.test(match[0]))errors.push(`${file}: image missing alt text`);
   if(/healthcare-ai-workflows/.test(html))errors.push(`${file}: links private healthcare source`);
   const markup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'');
+  if(/[\u2013\u2014]|&(?:em|en)dash;|&#(?:8211|8212);|&#x201[34];/i.test(markup))errors.push(`${file}: long dash in page copy`);
   if(/`r`n|\bundefined\b/.test(markup))errors.push(`${file}: escaped formatting or missing data`);
   if(file.endsWith(path.join('project-atlas','index.html'))){
     const embedded=html.match(/<script id="project-data" type="application\/json">([\s\S]*?)<\/script>/);
