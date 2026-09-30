@@ -21,8 +21,18 @@ for(const file of files.filter(f=>f.endsWith('.html'))){
   }
   for(const match of html.matchAll(/<img\b[^>]*>/g))if(!/\balt="[^"]+"/.test(match[0]))errors.push(`${file}: image missing alt text`);
   if(/healthcare-ai-workflows/.test(html))errors.push(`${file}: links private healthcare source`);
-  if(/`r`n|\bundefined\b/.test(html))errors.push(`${file}: escaped formatting or missing data`);
+  const markup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'');
+  if(/`r`n|\bundefined\b/.test(markup))errors.push(`${file}: escaped formatting or missing data`);
+  if(file.endsWith(path.join('project-atlas','index.html'))){
+    const embedded=html.match(/<script id="project-data" type="application\/json">([\s\S]*?)<\/script>/);
+    if(!embedded)errors.push('Atlas missing its public payload');
+    else {const data=JSON.parse(embedded[1]);if(data.audience!=='public'||data.repositories.some(r=>r.visibility!=='public'))errors.push('Atlas exposes non-public repository records');}
+  }
 }
+const atlas=JSON.parse(await readFile(path.join(root,'project-atlas/public-graph.json'),'utf8'));
+if(atlas.audience!=='public'||atlas.repositories.some(r=>r.visibility!=='public'))errors.push('Atlas JSON is not public-only');
+const nodeIds=new Set(atlas.nodes.map(n=>n.id));
+if(atlas.edges.some(e=>!nodeIds.has(e.source)||!nodeIds.has(e.target)))errors.push('Atlas contains dangling graph edges');
 if(new Set(projects.map(p=>p.id)).size!==projects.length)errors.push('Duplicate project id');
 for(const p of projects){if(!categories.some(c=>c.id===p.category))errors.push(`Invalid category: ${p.id}`);if(!p.status||!p.source||!p.repository)errors.push(`Missing project metadata: ${p.id}`);}
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}

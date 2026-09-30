@@ -1,0 +1,2899 @@
+{
+  "schema_version": 1,
+  "owner": "Eskstrom",
+  "collected_at": "2026-09-30T20:14:12.663986+00:00",
+  "audience": "public",
+  "repositories": [
+    {
+      "id": "Eskstrom/2048game",
+      "name": "2048game",
+      "url": "https://github.com/Eskstrom/2048game",
+      "description": "Browser-based implementation of the classic 2048 puzzle game",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:24Z",
+      "branch": "main",
+      "language": "JavaScript",
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/2048game/blob/0756c4f95d63e1968b86ee493235c8ff5a961264/README.md",
+          "note": "Repository-authored description; not independent validation."
+        },
+        {
+          "label": "game.js",
+          "url": "https://github.com/Eskstrom/2048game/blob/0756c4f95d63e1968b86ee493235c8ff5a961264/game.js",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "index.html",
+          "url": "https://github.com/Eskstrom/2048game/blob/0756c4f95d63e1968b86ee493235c8ff5a961264/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        }
+      ],
+      "topics": [
+        "Personal tools & play"
+      ],
+      "topic_evidence": {
+        "Personal tools & play": {
+          "excerpt": "Browser-based implementation of the classic 2048 puzzle game",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/2048game"
+        }
+      },
+      "warnings": [],
+      "commit": "0756c4f95d63e1968b86ee493235c8ff5a961264",
+      "source_count": 2,
+      "status": "Code present",
+      "status_reason": "Source artifacts found in the pinned tree. Execution, completeness and deployment are not verified."
+    },
+    {
+      "id": "Eskstrom/agency-lending-operations-case-study",
+      "name": "agency-lending-operations-case-study",
+      "url": "https://github.com/Eskstrom/agency-lending-operations-case-study",
+      "description": "Securities-lending lifecycle, exception protocols, requirements, SQL controls, and UAT case study",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:26Z",
+      "branch": "main",
+      "language": "TypeScript",
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md",
+          "note": "Repository-authored description; not independent validation."
+        },
+        {
+          "label": "dashboard/next.config.ts",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/dashboard/next.config.ts",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "dashboard/vite.config.ts",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/dashboard/vite.config.ts",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "offline/index.html",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/offline/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        }
+      ],
+      "topics": [
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Evaluation & evidence": {
+          "excerpt": "- Preserves evidence and an auditable decision history.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "agency-lending-operations-case-study",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study"
+        },
+        "Trust & governance": {
+          "excerpt": "- Preserves evidence and an auditable decision history.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "- [Case study](docs/CASE_STUDY.md) \u2014 context, discovery, scope, decisions, and success measures.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "- The design is market- and venue-agnostic; production rules would require legal, compliance, tax, credit, and operations approval.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "6e04d21ead8aaad21692d3eb8fa888d0e42c5310",
+      "source_count": 72,
+      "status": "Code present",
+      "status_reason": "Source artifacts found in the pinned tree. Execution, completeness and deployment are not verified."
+    },
+    {
+      "id": "Eskstrom/agent-use-case-prioritizer",
+      "name": "agent-use-case-prioritizer",
+      "url": "https://github.com/Eskstrom/agent-use-case-prioritizer",
+      "description": "Transparent rubric for prioritizing AI and agent workflow opportunities",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:28Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "agent-use-case-prioritizer",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/agent-use-case-prioritizer"
+        },
+        "Workflow & operations": {
+          "excerpt": "Transparent rubric for prioritizing AI and agent workflow opportunities",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/agent-use-case-prioritizer"
+        },
+        "Trust & governance": {
+          "excerpt": "- Decision record listing assumptions and required guardrails.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "Explain one automate, augment or decline decision and how changing an assumption alters it. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/ai-data-quality-sentinel",
+      "name": "ai-data-quality-sentinel",
+      "url": "https://github.com/Eskstrom/ai-data-quality-sentinel",
+      "description": "Data-quality monitoring dashboard for AI-enabled workflows",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:29Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/ai-data-quality-sentinel/blob/6ff47d38ddec0c78366ddfe2f26f3f081ba2e704/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Workflow & operations",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "ai-data-quality-sentinel",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/ai-data-quality-sentinel"
+        },
+        "Workflow & operations": {
+          "excerpt": "Data-quality monitoring dashboard for AI-enabled workflows",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/ai-data-quality-sentinel"
+        },
+        "Discovery & growth": {
+          "excerpt": "Reproduce a known data-quality problem and identify its affected fields and next owner. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/ai-data-quality-sentinel/blob/6ff47d38ddec0c78366ddfe2f26f3f081ba2e704/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/ai-data-quality-sentinel/blob/6ff47d38ddec0c78366ddfe2f26f3f081ba2e704/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "6ff47d38ddec0c78366ddfe2f26f3f081ba2e704",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/ai-deployment-command-center",
+      "name": "ai-deployment-command-center",
+      "url": "https://github.com/Eskstrom/ai-deployment-command-center",
+      "description": "B2B dashboard for AI rollout readiness, adoption, and launch risk",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:31Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "ai-deployment-command-center",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "- [ ] Specify owner, evidence, unresolved blocker and next action for each launch gate.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "B2B dashboard for AI rollout readiness, adoption, and launch risk",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center"
+        },
+        "Trust & governance": {
+          "excerpt": "- Readiness checklist: infrastructure, integration, training, governance, owner.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "B2B dashboard for AI rollout readiness, adoption, and launch risk",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief with supporting scope and measurement notes.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/candidate-search-eval-lab",
+      "name": "candidate-search-eval-lab",
+      "url": "https://github.com/Eskstrom/candidate-search-eval-lab",
+      "description": "Evaluation workbench for semantic candidate search with measurable retrieval quality",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:33Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/candidate-search-eval-lab/blob/ad5a01053a0ccc29ac2bd158b059472abcbe1593/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Retrieval & knowledge",
+        "Evaluation & evidence",
+        "Trust & governance",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Retrieval & knowledge": {
+          "excerpt": "Evaluation workbench for semantic candidate search with measurable retrieval quality",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/candidate-search-eval-lab"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "candidate-search-eval-lab",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/candidate-search-eval-lab"
+        },
+        "Trust & governance": {
+          "excerpt": "## Guardrails",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/candidate-search-eval-lab/blob/ad5a01053a0ccc29ac2bd158b059472abcbe1593/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=product-service-design#library)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/candidate-search-eval-lab/blob/ad5a01053a0ccc29ac2bd158b059472abcbe1593/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "ad5a01053a0ccc29ac2bd158b059472abcbe1593",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief with supporting scope and measurement notes.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/case-study-evidence-studio",
+      "name": "case-study-evidence-studio",
+      "url": "https://github.com/Eskstrom/case-study-evidence-studio",
+      "description": "Evidence-first workspace for writing credible product case studies",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:34Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/case-study-evidence-studio/blob/59e9bbe37c8bb1235115250b63fc58b53c8db43b/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Evaluation & evidence",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Evaluation & evidence": {
+          "excerpt": "case-study-evidence-studio",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/case-study-evidence-studio"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/case-study-evidence-studio/blob/59e9bbe37c8bb1235115250b63fc58b53c8db43b/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "59e9bbe37c8bb1235115250b63fc58b53c8db43b",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/claritydesk-rag",
+      "name": "claritydesk-rag",
+      "url": "https://github.com/Eskstrom/claritydesk-rag",
+      "description": "RAG-powered support assistant with source-grounded answers and escalation workflows",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:36Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Retrieval & knowledge",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "claritydesk-rag",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/claritydesk-rag"
+        },
+        "Retrieval & knowledge": {
+          "excerpt": "claritydesk-rag",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/claritydesk-rag"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "- Clear abstention behavior when evidence is weak.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "RAG-powered support assistant with source-grounded answers and escalation workflows",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/claritydesk-rag"
+        },
+        "Trust & governance": {
+          "excerpt": "A support assistant that answers questions from an approved knowledge base, shows supporting passages, estimates confidence, and routes unsupported questions to a human review queue.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/clinical-feedback-insight-hub",
+      "name": "clinical-feedback-insight-hub",
+      "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub",
+      "description": "Feedback-analysis workspace for implementation and product insights",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:36Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "Python, Streamlit, SQLite, optional LLM-assisted categorization.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=healthcare-operations#library)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+        },
+        "Trust & governance": {
+          "excerpt": "## Guardrails",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "Define how corrected classifications become an owned product or training action. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "283964169fa736a05af6ec7689aea99087e4d8cd",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/eligibility-reconciliation-workbench",
+      "name": "eligibility-reconciliation-workbench",
+      "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench",
+      "description": "Auditable record matching and exception-review workspace using synthetic data",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:39Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench/blob/ba62f583c86db3ee644fd5b396f5a5dd28270e87/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Evaluation & evidence": {
+          "excerpt": "- Precision/recall of matches against a known synthetic ground truth.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench/blob/ba62f583c86db3ee644fd5b396f5a5dd28270e87/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "eligibility-reconciliation-workbench",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench"
+        },
+        "Trust & governance": {
+          "excerpt": "Auditable record matching and exception-review workspace using synthetic data",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench/blob/ba62f583c86db3ee644fd5b396f5a5dd28270e87/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "ba62f583c86db3ee644fd5b396f5a5dd28270e87",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/enterprise-llm-model-hub",
+      "name": "enterprise-llm-model-hub",
+      "url": "https://github.com/Eskstrom/enterprise-llm-model-hub",
+      "description": "Enterprise LLM evaluation, routing, governance, and cost-planning product case study",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:40Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "enterprise-llm-model-hub",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "Enterprise LLM evaluation, routing, governance, and cost-planning product case study",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub"
+        },
+        "Workflow & operations": {
+          "excerpt": "Enterprise teams often adopt LLMs one workflow at a time. That creates inconsistent quality, unclear spend, provider concentration risk, and weak visibility into which models are approved for sensitive work.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md"
+        },
+        "Trust & governance": {
+          "excerpt": "Enterprise LLM evaluation, routing, governance, and cost-planning product case study",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub"
+        },
+        "Discovery & growth": {
+          "excerpt": "A product case study for an enterprise platform that helps teams evaluate LLMs, choose models for distinct workloads, route traffic under practical constraints, and govern adoption at scale.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "- A model-routing and governance design.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "398739ba01e4c833d8b517b934fff5a8a1e555e9",
+      "source_count": 0,
+      "status": "Documentation / design",
+      "status_reason": "Documentation found; no supported source-file type found in the retrieved tree."
+    },
+    {
+      "id": "Eskstrom/Eskstrom",
+      "name": "Eskstrom",
+      "url": "https://github.com/Eskstrom/Eskstrom",
+      "description": "Developer portfolio and project showcase",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:40Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "I bring **product thinking and thoughtful interfaces to the human side of AI**\u2014from healthcare workflows and everyday services to new features, useful tools, and games.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "As the sole designer, I worked with hospital technology and operations partners on clearer evidence review, confirmation, and recovery in healthcare automation.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "I bring **product thinking and thoughtful interfaces to the human side of AI**\u2014from healthcare workflows and everyday services to new features, useful tools, and games.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+        },
+        "Trust & governance": {
+          "excerpt": "The [full collection](PROJECTS.md) includes AI evaluation, commerce, governance, and more. Each entry distinguishes design work, concepts, prototypes, and implementations.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "Center the next portfolio revision on healthcare workflows, AI evaluation and adoption, with one developed growth case.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "[![Healthcare review: editable information alongside source evidence](https://raw.githubusercontent.com/Eskstrom/figma-portfolio-checkpoint/main/projects/ai-workflow-review/assets/03-preview.png)](https://eskstrom.github.io/projects/ai-work",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "4948d3750f7f6cb53966561bbf098d4a2d341260",
+      "source_count": 0,
+      "status": "Documentation / design",
+      "status_reason": "Documentation found; no supported source-file type found in the retrieved tree."
+    },
+    {
+      "id": "Eskstrom/Eskstrom.github.io",
+      "name": "Eskstrom.github.io",
+      "url": "https://github.com/Eskstrom/Eskstrom.github.io",
+      "description": "UX and product design portfolio for Sumukh Gadavilli",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:42Z",
+      "branch": "main",
+      "language": "JavaScript",
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md",
+          "note": "Repository-authored description; not independent validation."
+        },
+        {
+          "label": "index.html",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "docs/404.html",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/docs/404.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "docs/index.html",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/docs/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "| [AI Workflow Review](https://eskstrom.github.io/projects/ai-workflow-review/) | Evidence, confirmation, and recovery in healthcare automation |",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "| [AI Workflow Review](https://eskstrom.github.io/projects/ai-workflow-review/) | Evidence, confirmation, and recovery in healthcare automation |",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "A portfolio of healthcare workflows, product and service design, new feature concepts, and tools worth playing with. Six selected projects lead into a complete collection organized by category.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+        },
+        "Trust & governance": {
+          "excerpt": "notes/           Maintenance, references, and audit results",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "UX and product design portfolio for Sumukh Gadavilli",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/Eskstrom.github.io"
+        }
+      },
+      "warnings": [],
+      "commit": "9f58ed00f727856207344306a75e01841461fab5",
+      "source_count": 11,
+      "status": "Code present",
+      "status_reason": "Source artifacts found in the pinned tree. Execution, completeness and deployment are not verified."
+    },
+    {
+      "id": "Eskstrom/figma-portfolio-checkpoint",
+      "name": "figma-portfolio-checkpoint",
+      "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint",
+      "description": "UX portfolio checkpoint: Figma projects, changes, verification notes and next steps",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:43Z",
+      "branch": "main",
+      "language": "HTML",
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md",
+          "note": "Repository-authored description; not independent validation."
+        },
+        {
+          "label": "docs/index.html",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/docs/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "projects/watch-and-unlock/prototype/build_wireframes.py",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/projects/watch-and-unlock/prototype/build_wireframes.py",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "projects/watch-and-unlock/prototype/index.html",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/projects/watch-and-unlock/prototype/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "## Start here: AI Workflow Review",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "[![Evidence beside editable output](projects/ai-workflow-review/assets/03-preview.png)](https://eskstrom.github.io/projects/ai-workflow-review/)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "## Start here: AI Workflow Review",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "figma-portfolio-checkpoint",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint"
+        }
+      },
+      "warnings": [],
+      "commit": "7a5580ac56cf5fe344f736d53a082eeec90ac845",
+      "source_count": 3,
+      "status": "Code present",
+      "status_reason": "Source artifacts found in the pinned tree. Execution, completeness and deployment are not verified."
+    },
+    {
+      "id": "Eskstrom/focusflow",
+      "name": "focusflow",
+      "url": "https://github.com/Eskstrom/focusflow",
+      "description": "A focused productivity assistant for planning deep-work sessions",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:44Z",
+      "branch": "main",
+      "language": "Python",
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md",
+          "note": "Repository-authored description; not independent validation."
+        },
+        {
+          "label": "focusflow/__init__.py",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/focusflow/__init__.py",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "focusflow/__main__.py",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/focusflow/__main__.py",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "focusflow/app.py",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/focusflow/app.py",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Workflow & operations",
+        "Design & experience",
+        "Personal tools & play"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "- [ ] Keep any future AI scheduling idea in the backlog until a specific need is validated.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "Use a real recurring workflow to justify maintenance. Check usage and portfolio links before any separate archival decision.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "[![Interface](https://img.shields.io/badge/CLI-Rich%20TUI-purple.svg)](https://github.com/Textualize/rich)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md"
+        },
+        "Personal tools & play": {
+          "excerpt": "A focused productivity assistant for planning deep-work sessions",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/focusflow"
+        }
+      },
+      "warnings": [],
+      "commit": "9ea25aa54b1720264e48574e47342198ab11f2cf",
+      "source_count": 21,
+      "status": "Code present",
+      "status_reason": "Source artifacts found in the pinned tree. Execution, completeness and deployment are not verified."
+    },
+    {
+      "id": "Eskstrom/focusflow-ai-planner",
+      "name": "focusflow-ai-planner",
+      "url": "https://github.com/Eskstrom/focusflow-ai-planner",
+      "description": "AI-assisted weekly planner for focused work and reflection",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:45Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/focusflow-ai-planner/blob/1efe38dccf146c636e017b9f1ada9b0619b1de34/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Trust & governance",
+        "Design & experience",
+        "Personal tools & play"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "focusflow-ai-planner",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/focusflow-ai-planner"
+        },
+        "Trust & governance": {
+          "excerpt": "## Guardrails",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/focusflow-ai-planner/blob/1efe38dccf146c636e017b9f1ada9b0619b1de34/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/focusflow-ai-planner/blob/1efe38dccf146c636e017b9f1ada9b0619b1de34/README.md"
+        },
+        "Personal tools & play": {
+          "excerpt": "focusflow-ai-planner",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/focusflow-ai-planner"
+        }
+      },
+      "warnings": [],
+      "commit": "1efe38dccf146c636e017b9f1ada9b0619b1de34",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/governance-guardrails-toolkit",
+      "name": "governance-guardrails-toolkit",
+      "url": "https://github.com/Eskstrom/governance-guardrails-toolkit",
+      "description": "Launch-readiness and guardrails toolkit for AI product teams",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:47Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "Launch-readiness and guardrails toolkit for AI product teams",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "Connect AI launch risks to specific controls and evidence requirements.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "Launch-readiness and guardrails toolkit for AI product teams",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit"
+        },
+        "Trust & governance": {
+          "excerpt": "governance-guardrails-toolkit",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit"
+        },
+        "Discovery & growth": {
+          "excerpt": "Trace each required control to a specific risk and an accountable decision owner. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "a5b83269cc1ef3793e19b1c16f2079ea5764739b",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/human-approval-workspace",
+      "name": "human-approval-workspace",
+      "url": "https://github.com/Eskstrom/human-approval-workspace",
+      "description": "Auditable human-review interface for AI-assisted decisions",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:49Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "Auditable human-review interface for AI-assisted decisions",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/human-approval-workspace"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "A review interface for high-impact AI-assisted actions. It presents the proposed action, evidence, confidence, risk factors, reviewer decision, and audit trail in one place.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "Preserve evidence, reviewer actions, override rationale and decision history within the AI Workflow Review case in figma-portfolio-checkpoint.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md"
+        },
+        "Trust & governance": {
+          "excerpt": "human-approval-workspace",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/human-approval-workspace"
+        },
+        "Discovery & growth": {
+          "excerpt": "Show how a reviewer distinguishes an unresolved state from an adverse result. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "Auditable human-review interface for AI-assisted decisions",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/human-approval-workspace"
+        }
+      },
+      "warnings": [],
+      "commit": "b007a07adbe36e14695beebbe78aef74c47369e9",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/marketplace-discovery-diagnostic",
+      "name": "marketplace-discovery-diagnostic",
+      "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic",
+      "description": "Catalog taxonomy and product-discoverability diagnostic tool",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:55Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Evaluation & evidence",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Evaluation & evidence": {
+          "excerpt": "Reopen a PRD only for a marketplace/discovery priority supported by user evidence. Inactivity has not been established; retaining the repository remains an option.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md"
+        },
+        "Trust & governance": {
+          "excerpt": "## Guardrails",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "marketplace-discovery-diagnostic",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic"
+        },
+        "Design & experience": {
+          "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=product-service-design#library)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "d81add0b17157a42f47b90a42ed6d8f6e42a67ac",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/moment-comments",
+      "name": "moment-comments",
+      "url": "https://github.com/Eskstrom/moment-comments",
+      "description": "AI-timed comments and moment-specific discussion for short video",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:55Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/moment-comments/blob/61101952826ebd21bc70146c8b326c5d11d35667/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "AI-timed comments and moment-specific discussion for short video",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/moment-comments"
+        },
+        "Design & experience": {
+          "excerpt": "[Open the Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2) \u00b7 [View the backed-up SVG board](assets/moment-comments-concept.svg)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/moment-comments/blob/61101952826ebd21bc70146c8b326c5d11d35667/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "61101952826ebd21bc70146c8b326c5d11d35667",
+      "source_count": 0,
+      "status": "Documentation / design",
+      "status_reason": "Documentation found; no supported source-file type found in the retrieved tree."
+    },
+    {
+      "id": "Eskstrom/opening-explainer",
+      "name": "opening-explainer",
+      "url": "https://github.com/Eskstrom/opening-explainer",
+      "description": "Interactive tool that explains chess opening ideas and common plans",
+      "visibility": "public",
+      "fork": false,
+      "archived": true,
+      "updated_at": "2026-09-10T00:58:42Z",
+      "branch": "main",
+      "language": "JavaScript",
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/README.md",
+          "note": "Repository-authored description; not independent validation."
+        },
+        {
+          "label": "index.html",
+          "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/index.html",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "vite.config.js",
+          "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/vite.config.js",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        },
+        {
+          "label": "src/App.jsx",
+          "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/src/App.jsx",
+          "note": "Source artifact exists at this commit; not executed by the collector."
+        }
+      ],
+      "topics": [
+        "Workflow & operations",
+        "Design & experience",
+        "Personal tools & play"
+      ],
+      "topic_evidence": {
+        "Workflow & operations": {
+          "excerpt": "This repo includes a GitHub Actions workflow",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "neither is attached to the specific move in front of you. This prototype",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/README.md"
+        },
+        "Personal tools & play": {
+          "excerpt": "Interactive tool that explains chess opening ideas and common plans",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/opening-explainer"
+        }
+      },
+      "warnings": [],
+      "commit": "bb9bb1b8472b5ad3e5fe07c94adaace6301161ce",
+      "source_count": 7,
+      "status": "Code present",
+      "status_reason": "Source artifacts found in the pinned tree. Execution, completeness and deployment are not verified."
+    },
+    {
+      "id": "Eskstrom/referral-loop-simulator",
+      "name": "referral-loop-simulator",
+      "url": "https://github.com/Eskstrom/referral-loop-simulator",
+      "description": "Operations simulator for referral and follow-up funnel bottlenecks",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:31:59Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/referral-loop-simulator/blob/4d03538af92cc3628f0a5fb7c517e4c7ab32e8a2/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Workflow & operations": {
+          "excerpt": "Operations simulator for referral and follow-up funnel bottlenecks",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/referral-loop-simulator"
+        },
+        "Trust & governance": {
+          "excerpt": "## Guardrails",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/referral-loop-simulator/blob/4d03538af92cc3628f0a5fb7c517e4c7ab32e8a2/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "referral-loop-simulator",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/referral-loop-simulator"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/referral-loop-simulator/blob/4d03538af92cc3628f0a5fb7c517e4c7ab32e8a2/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "4d03538af92cc3628f0a5fb7c517e4c7ab32e8a2",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/research-orchestra",
+      "name": "research-orchestra",
+      "url": "https://github.com/Eskstrom/research-orchestra",
+      "description": "Multi-agent research workflow that produces cited briefs from the web",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:32:01Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "AI & agents",
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Design & experience",
+        "Personal tools & play"
+      ],
+      "topic_evidence": {
+        "AI & agents": {
+          "excerpt": "Multi-agent research workflow that produces cited briefs from the web",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/research-orchestra"
+        },
+        "Evaluation & evidence": {
+          "excerpt": "Question \u2192 research plan \u2192 source collection \u2192 evidence notes \u2192 synthesis \u2192 cited brief",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "Multi-agent research workflow that produces cited briefs from the web",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/research-orchestra"
+        },
+        "Trust & governance": {
+          "excerpt": "A proposed multi-agent research workflow for turning a question into a concise, source-linked brief. Each step has a clear responsibility so the process stays auditable rather than feeling like a black box.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design principles",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+        },
+        "Personal tools & play": {
+          "excerpt": "- **Planner** \u2014 frames the question and identifies evidence needed.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "db0f12044974b508b4eca11a30e0368cb42cf6e8",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/return-risk-explainer",
+      "name": "return-risk-explainer",
+      "url": "https://github.com/Eskstrom/return-risk-explainer",
+      "description": "Explainable listing-quality assistant for preventable return risks",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:32:02Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/return-risk-explainer/blob/e0fa1a09296aa60c9af15fa5d385c7d675f53eb2/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Trust & governance",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Trust & governance": {
+          "excerpt": "## Guardrails",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/return-risk-explainer/blob/e0fa1a09296aa60c9af15fa5d385c7d675f53eb2/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=product-service-design#library)",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/return-risk-explainer/blob/e0fa1a09296aa60c9af15fa5d385c7d675f53eb2/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "e0fa1a09296aa60c9af15fa5d385c7d675f53eb2",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    },
+    {
+      "id": "Eskstrom/seasonal-campaign-launch-readiness",
+      "name": "seasonal-campaign-launch-readiness",
+      "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness",
+      "description": "One-page illustrative marketing PMO case for cross-functional seasonal campaign launch readiness",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:32:03Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness/blob/105f394eb2c41c6170e07db29dcc9177cbcc53a2/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Trust & governance",
+        "Discovery & growth"
+      ],
+      "topic_evidence": {
+        "Evaluation & evidence": {
+          "excerpt": "3. **Stage gates for readiness:** teams advance on evidence, not a subjective percent-complete update.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness/blob/105f394eb2c41c6170e07db29dcc9177cbcc53a2/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "seasonal-campaign-launch-readiness",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness"
+        },
+        "Trust & governance": {
+          "excerpt": "The Home Depot's Spring Starts promotion ran March 19-April 1, 2026 across stores, homedepot.com, and the mobile app. A campaign with that footprint can only launch predictably when Strategy, Media, Creative/Agency, Product, IT, and channel",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness/blob/105f394eb2c41c6170e07db29dcc9177cbcc53a2/README.md"
+        },
+        "Discovery & growth": {
+          "excerpt": "seasonal-campaign-launch-readiness",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness"
+        }
+      },
+      "warnings": [],
+      "commit": "105f394eb2c41c6170e07db29dcc9177cbcc53a2",
+      "source_count": 0,
+      "status": "Documentation / design",
+      "status_reason": "Documentation found; no supported source-file type found in the retrieved tree."
+    },
+    {
+      "id": "Eskstrom/workflow-exception-navigator",
+      "name": "workflow-exception-navigator",
+      "url": "https://github.com/Eskstrom/workflow-exception-navigator",
+      "description": "Explainable operational exception triage workspace",
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "updated_at": "2026-09-24T06:32:08Z",
+      "branch": "main",
+      "language": null,
+      "evidence": [
+        {
+          "label": "README",
+          "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md",
+          "note": "Repository-authored description; not independent validation."
+        }
+      ],
+      "topics": [
+        "Evaluation & evidence",
+        "Workflow & operations",
+        "Discovery & growth",
+        "Design & experience"
+      ],
+      "topic_evidence": {
+        "Evaluation & evidence": {
+          "excerpt": "Follow a synthetic exception from detection through routing to evidence-backed closure. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md"
+        },
+        "Workflow & operations": {
+          "excerpt": "workflow-exception-navigator",
+          "source": "Repository metadata",
+          "url": "https://github.com/Eskstrom/workflow-exception-navigator"
+        },
+        "Discovery & growth": {
+          "excerpt": "Follow a synthetic exception from detection through routing to evidence-backed closure. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md"
+        },
+        "Design & experience": {
+          "excerpt": "## Design focus",
+          "source": "README",
+          "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md"
+        }
+      },
+      "warnings": [],
+      "commit": "39f4519ecd6e50b627ae54123fcee463df69cd17",
+      "source_count": 0,
+      "status": "Concept",
+      "status_reason": "**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Eskstrom/2048game",
+      "kind": "repository",
+      "label": "2048game"
+    },
+    {
+      "id": "topic:Personal tools & play",
+      "kind": "topic",
+      "label": "Personal tools & play"
+    },
+    {
+      "id": "Eskstrom/agency-lending-operations-case-study",
+      "kind": "repository",
+      "label": "agency-lending-operations-case-study"
+    },
+    {
+      "id": "topic:Evaluation & evidence",
+      "kind": "topic",
+      "label": "Evaluation & evidence"
+    },
+    {
+      "id": "topic:Workflow & operations",
+      "kind": "topic",
+      "label": "Workflow & operations"
+    },
+    {
+      "id": "topic:Trust & governance",
+      "kind": "topic",
+      "label": "Trust & governance"
+    },
+    {
+      "id": "topic:Discovery & growth",
+      "kind": "topic",
+      "label": "Discovery & growth"
+    },
+    {
+      "id": "topic:Design & experience",
+      "kind": "topic",
+      "label": "Design & experience"
+    },
+    {
+      "id": "Eskstrom/agent-use-case-prioritizer",
+      "kind": "repository",
+      "label": "agent-use-case-prioritizer"
+    },
+    {
+      "id": "topic:AI & agents",
+      "kind": "topic",
+      "label": "AI & agents"
+    },
+    {
+      "id": "Eskstrom/ai-data-quality-sentinel",
+      "kind": "repository",
+      "label": "ai-data-quality-sentinel"
+    },
+    {
+      "id": "Eskstrom/ai-deployment-command-center",
+      "kind": "repository",
+      "label": "ai-deployment-command-center"
+    },
+    {
+      "id": "Eskstrom/candidate-search-eval-lab",
+      "kind": "repository",
+      "label": "candidate-search-eval-lab"
+    },
+    {
+      "id": "topic:Retrieval & knowledge",
+      "kind": "topic",
+      "label": "Retrieval & knowledge"
+    },
+    {
+      "id": "Eskstrom/case-study-evidence-studio",
+      "kind": "repository",
+      "label": "case-study-evidence-studio"
+    },
+    {
+      "id": "Eskstrom/claritydesk-rag",
+      "kind": "repository",
+      "label": "claritydesk-rag"
+    },
+    {
+      "id": "Eskstrom/clinical-feedback-insight-hub",
+      "kind": "repository",
+      "label": "clinical-feedback-insight-hub"
+    },
+    {
+      "id": "Eskstrom/eligibility-reconciliation-workbench",
+      "kind": "repository",
+      "label": "eligibility-reconciliation-workbench"
+    },
+    {
+      "id": "Eskstrom/enterprise-llm-model-hub",
+      "kind": "repository",
+      "label": "enterprise-llm-model-hub"
+    },
+    {
+      "id": "Eskstrom/Eskstrom",
+      "kind": "repository",
+      "label": "Eskstrom"
+    },
+    {
+      "id": "Eskstrom/Eskstrom.github.io",
+      "kind": "repository",
+      "label": "Eskstrom.github.io"
+    },
+    {
+      "id": "Eskstrom/figma-portfolio-checkpoint",
+      "kind": "repository",
+      "label": "figma-portfolio-checkpoint"
+    },
+    {
+      "id": "Eskstrom/focusflow",
+      "kind": "repository",
+      "label": "focusflow"
+    },
+    {
+      "id": "Eskstrom/focusflow-ai-planner",
+      "kind": "repository",
+      "label": "focusflow-ai-planner"
+    },
+    {
+      "id": "Eskstrom/governance-guardrails-toolkit",
+      "kind": "repository",
+      "label": "governance-guardrails-toolkit"
+    },
+    {
+      "id": "Eskstrom/human-approval-workspace",
+      "kind": "repository",
+      "label": "human-approval-workspace"
+    },
+    {
+      "id": "Eskstrom/marketplace-discovery-diagnostic",
+      "kind": "repository",
+      "label": "marketplace-discovery-diagnostic"
+    },
+    {
+      "id": "Eskstrom/moment-comments",
+      "kind": "repository",
+      "label": "moment-comments"
+    },
+    {
+      "id": "Eskstrom/opening-explainer",
+      "kind": "repository",
+      "label": "opening-explainer"
+    },
+    {
+      "id": "Eskstrom/referral-loop-simulator",
+      "kind": "repository",
+      "label": "referral-loop-simulator"
+    },
+    {
+      "id": "Eskstrom/research-orchestra",
+      "kind": "repository",
+      "label": "research-orchestra"
+    },
+    {
+      "id": "Eskstrom/return-risk-explainer",
+      "kind": "repository",
+      "label": "return-risk-explainer"
+    },
+    {
+      "id": "Eskstrom/seasonal-campaign-launch-readiness",
+      "kind": "repository",
+      "label": "seasonal-campaign-launch-readiness"
+    },
+    {
+      "id": "Eskstrom/workflow-exception-navigator",
+      "kind": "repository",
+      "label": "workflow-exception-navigator"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Eskstrom/2048game",
+      "target": "topic:Personal tools & play",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Browser-based implementation of the classic 2048 puzzle game",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/2048game"
+      }
+    },
+    {
+      "source": "Eskstrom/agency-lending-operations-case-study",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- Preserves evidence and an auditable decision history.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/agency-lending-operations-case-study",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "agency-lending-operations-case-study",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/agency-lending-operations-case-study"
+      }
+    },
+    {
+      "source": "Eskstrom/agency-lending-operations-case-study",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- Preserves evidence and an auditable decision history.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/agency-lending-operations-case-study",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- [Case study](docs/CASE_STUDY.md) \u2014 context, discovery, scope, decisions, and success measures.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/agency-lending-operations-case-study",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- The design is market- and venue-agnostic; production rules would require legal, compliance, tax, credit, and operations approval.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agency-lending-operations-case-study/blob/6e04d21ead8aaad21692d3eb8fa888d0e42c5310/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/agent-use-case-prioritizer",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "agent-use-case-prioritizer",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/agent-use-case-prioritizer"
+      }
+    },
+    {
+      "source": "Eskstrom/agent-use-case-prioritizer",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Transparent rubric for prioritizing AI and agent workflow opportunities",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/agent-use-case-prioritizer"
+      }
+    },
+    {
+      "source": "Eskstrom/agent-use-case-prioritizer",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- Decision record listing assumptions and required guardrails.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/agent-use-case-prioritizer",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Explain one automate, augment or decline decision and how changing an assumption alters it. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/agent-use-case-prioritizer",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/agent-use-case-prioritizer/blob/691e4dcfc6602f6b7c5ba2601f1f5680e82e3e8e/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-data-quality-sentinel",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "ai-data-quality-sentinel",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/ai-data-quality-sentinel"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-data-quality-sentinel",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Data-quality monitoring dashboard for AI-enabled workflows",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/ai-data-quality-sentinel"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-data-quality-sentinel",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Reproduce a known data-quality problem and identify its affected fields and next owner. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/ai-data-quality-sentinel/blob/6ff47d38ddec0c78366ddfe2f26f3f081ba2e704/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-data-quality-sentinel",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/ai-data-quality-sentinel/blob/6ff47d38ddec0c78366ddfe2f26f3f081ba2e704/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-deployment-command-center",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "ai-deployment-command-center",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/ai-deployment-command-center"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-deployment-command-center",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- [ ] Specify owner, evidence, unresolved blocker and next action for each launch gate.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-deployment-command-center",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "B2B dashboard for AI rollout readiness, adoption, and launch risk",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/ai-deployment-command-center"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-deployment-command-center",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- Readiness checklist: infrastructure, integration, training, governance, owner.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-deployment-command-center",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "B2B dashboard for AI rollout readiness, adoption, and launch risk",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/ai-deployment-command-center"
+      }
+    },
+    {
+      "source": "Eskstrom/ai-deployment-command-center",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/ai-deployment-command-center/blob/dfa21fc146059a9d743b3d9e7dec6fe0e36fba3a/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/candidate-search-eval-lab",
+      "target": "topic:Retrieval & knowledge",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Evaluation workbench for semantic candidate search with measurable retrieval quality",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/candidate-search-eval-lab"
+      }
+    },
+    {
+      "source": "Eskstrom/candidate-search-eval-lab",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "candidate-search-eval-lab",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/candidate-search-eval-lab"
+      }
+    },
+    {
+      "source": "Eskstrom/candidate-search-eval-lab",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Guardrails",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/candidate-search-eval-lab/blob/ad5a01053a0ccc29ac2bd158b059472abcbe1593/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/candidate-search-eval-lab",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=product-service-design#library)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/candidate-search-eval-lab/blob/ad5a01053a0ccc29ac2bd158b059472abcbe1593/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/case-study-evidence-studio",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "case-study-evidence-studio",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/case-study-evidence-studio"
+      }
+    },
+    {
+      "source": "Eskstrom/case-study-evidence-studio",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/case-study-evidence-studio/blob/59e9bbe37c8bb1235115250b63fc58b53c8db43b/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/claritydesk-rag",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "claritydesk-rag",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/claritydesk-rag"
+      }
+    },
+    {
+      "source": "Eskstrom/claritydesk-rag",
+      "target": "topic:Retrieval & knowledge",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "claritydesk-rag",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/claritydesk-rag"
+      }
+    },
+    {
+      "source": "Eskstrom/claritydesk-rag",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- Clear abstention behavior when evidence is weak.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/claritydesk-rag",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "RAG-powered support assistant with source-grounded answers and escalation workflows",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/claritydesk-rag"
+      }
+    },
+    {
+      "source": "Eskstrom/claritydesk-rag",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "A support assistant that answers questions from an approved knowledge base, shows supporting passages, estimates confidence, and routes unsupported questions to a human review queue.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/claritydesk-rag",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/claritydesk-rag/blob/7aed76cbe2cc35b362b26b10dbbe4d8ab2bdec69/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/clinical-feedback-insight-hub",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Python, Streamlit, SQLite, optional LLM-assisted categorization.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/clinical-feedback-insight-hub",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=healthcare-operations#library)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/clinical-feedback-insight-hub",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Guardrails",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/clinical-feedback-insight-hub",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Define how corrected classifications become an owned product or training action. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/clinical-feedback-insight-hub",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/clinical-feedback-insight-hub/blob/283964169fa736a05af6ec7689aea99087e4d8cd/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/eligibility-reconciliation-workbench",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- Precision/recall of matches against a known synthetic ground truth.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench/blob/ba62f583c86db3ee644fd5b396f5a5dd28270e87/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/eligibility-reconciliation-workbench",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "eligibility-reconciliation-workbench",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench"
+      }
+    },
+    {
+      "source": "Eskstrom/eligibility-reconciliation-workbench",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Auditable record matching and exception-review workspace using synthetic data",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench"
+      }
+    },
+    {
+      "source": "Eskstrom/eligibility-reconciliation-workbench",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/eligibility-reconciliation-workbench/blob/ba62f583c86db3ee644fd5b396f5a5dd28270e87/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/enterprise-llm-model-hub",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "enterprise-llm-model-hub",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/enterprise-llm-model-hub"
+      }
+    },
+    {
+      "source": "Eskstrom/enterprise-llm-model-hub",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Enterprise LLM evaluation, routing, governance, and cost-planning product case study",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/enterprise-llm-model-hub"
+      }
+    },
+    {
+      "source": "Eskstrom/enterprise-llm-model-hub",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Enterprise teams often adopt LLMs one workflow at a time. That creates inconsistent quality, unclear spend, provider concentration risk, and weak visibility into which models are approved for sensitive work.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/enterprise-llm-model-hub",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Enterprise LLM evaluation, routing, governance, and cost-planning product case study",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/enterprise-llm-model-hub"
+      }
+    },
+    {
+      "source": "Eskstrom/enterprise-llm-model-hub",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "A product case study for an enterprise platform that helps teams evaluate LLMs, choose models for distinct workloads, route traffic under practical constraints, and govern adoption at scale.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/enterprise-llm-model-hub",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- A model-routing and governance design.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/enterprise-llm-model-hub/blob/398739ba01e4c833d8b517b934fff5a8a1e555e9/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "I bring **product thinking and thoughtful interfaces to the human side of AI**\u2014from healthcare workflows and everyday services to new features, useful tools, and games.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "As the sole designer, I worked with hospital technology and operations partners on clearer evidence review, confirmation, and recovery in healthcare automation.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "I bring **product thinking and thoughtful interfaces to the human side of AI**\u2014from healthcare workflows and everyday services to new features, useful tools, and games.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "The [full collection](PROJECTS.md) includes AI evaluation, commerce, governance, and more. Each entry distinguishes design work, concepts, prototypes, and implementations.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Center the next portfolio revision on healthcare workflows, AI evaluation and adoption, with one developed growth case.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[![Healthcare review: editable information alongside source evidence](https://raw.githubusercontent.com/Eskstrom/figma-portfolio-checkpoint/main/projects/ai-workflow-review/assets/03-preview.png)](https://eskstrom.github.io/projects/ai-work",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom/blob/4948d3750f7f6cb53966561bbf098d4a2d341260/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom.github.io",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "| [AI Workflow Review](https://eskstrom.github.io/projects/ai-workflow-review/) | Evidence, confirmation, and recovery in healthcare automation |",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom.github.io",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "| [AI Workflow Review](https://eskstrom.github.io/projects/ai-workflow-review/) | Evidence, confirmation, and recovery in healthcare automation |",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom.github.io",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "A portfolio of healthcare workflows, product and service design, new feature concepts, and tools worth playing with. Six selected projects lead into a complete collection organized by category.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom.github.io",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "notes/           Maintenance, references, and audit results",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/Eskstrom.github.io/blob/9f58ed00f727856207344306a75e01841461fab5/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/Eskstrom.github.io",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "UX and product design portfolio for Sumukh Gadavilli",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/Eskstrom.github.io"
+      }
+    },
+    {
+      "source": "Eskstrom/figma-portfolio-checkpoint",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Start here: AI Workflow Review",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/figma-portfolio-checkpoint",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[![Evidence beside editable output](projects/ai-workflow-review/assets/03-preview.png)](https://eskstrom.github.io/projects/ai-workflow-review/)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/figma-portfolio-checkpoint",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Start here: AI Workflow Review",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/7a5580ac56cf5fe344f736d53a082eeec90ac845/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/figma-portfolio-checkpoint",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "figma-portfolio-checkpoint",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/figma-portfolio-checkpoint"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- [ ] Keep any future AI scheduling idea in the backlog until a specific need is validated.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Use a real recurring workflow to justify maintenance. Check usage and portfolio links before any separate archival decision.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[![Interface](https://img.shields.io/badge/CLI-Rich%20TUI-purple.svg)](https://github.com/Textualize/rich)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/focusflow/blob/9ea25aa54b1720264e48574e47342198ab11f2cf/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow",
+      "target": "topic:Personal tools & play",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "A focused productivity assistant for planning deep-work sessions",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/focusflow"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow-ai-planner",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "focusflow-ai-planner",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/focusflow-ai-planner"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow-ai-planner",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Guardrails",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/focusflow-ai-planner/blob/1efe38dccf146c636e017b9f1ada9b0619b1de34/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow-ai-planner",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/focusflow-ai-planner/blob/1efe38dccf146c636e017b9f1ada9b0619b1de34/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/focusflow-ai-planner",
+      "target": "topic:Personal tools & play",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "focusflow-ai-planner",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/focusflow-ai-planner"
+      }
+    },
+    {
+      "source": "Eskstrom/governance-guardrails-toolkit",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Launch-readiness and guardrails toolkit for AI product teams",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/governance-guardrails-toolkit"
+      }
+    },
+    {
+      "source": "Eskstrom/governance-guardrails-toolkit",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Connect AI launch risks to specific controls and evidence requirements.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/governance-guardrails-toolkit",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Launch-readiness and guardrails toolkit for AI product teams",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/governance-guardrails-toolkit"
+      }
+    },
+    {
+      "source": "Eskstrom/governance-guardrails-toolkit",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "governance-guardrails-toolkit",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/governance-guardrails-toolkit"
+      }
+    },
+    {
+      "source": "Eskstrom/governance-guardrails-toolkit",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Trace each required control to a specific risk and an accountable decision owner. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/governance-guardrails-toolkit",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/governance-guardrails-toolkit/blob/a5b83269cc1ef3793e19b1c16f2079ea5764739b/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/human-approval-workspace",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Auditable human-review interface for AI-assisted decisions",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/human-approval-workspace"
+      }
+    },
+    {
+      "source": "Eskstrom/human-approval-workspace",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "A review interface for high-impact AI-assisted actions. It presents the proposed action, evidence, confidence, risk factors, reviewer decision, and audit trail in one place.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/human-approval-workspace",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Preserve evidence, reviewer actions, override rationale and decision history within the AI Workflow Review case in figma-portfolio-checkpoint.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/human-approval-workspace",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "human-approval-workspace",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/human-approval-workspace"
+      }
+    },
+    {
+      "source": "Eskstrom/human-approval-workspace",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Show how a reviewer distinguishes an unresolved state from an adverse result. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/human-approval-workspace/blob/b007a07adbe36e14695beebbe78aef74c47369e9/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/human-approval-workspace",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Auditable human-review interface for AI-assisted decisions",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/human-approval-workspace"
+      }
+    },
+    {
+      "source": "Eskstrom/marketplace-discovery-diagnostic",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Reopen a PRD only for a marketplace/discovery priority supported by user evidence. Inactivity has not been established; retaining the repository remains an option.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/marketplace-discovery-diagnostic",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Guardrails",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/marketplace-discovery-diagnostic",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "marketplace-discovery-diagnostic",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic"
+      }
+    },
+    {
+      "source": "Eskstrom/marketplace-discovery-diagnostic",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=product-service-design#library)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/marketplace-discovery-diagnostic/blob/d81add0b17157a42f47b90a42ed6d8f6e42a67ac/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/moment-comments",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "AI-timed comments and moment-specific discussion for short video",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/moment-comments"
+      }
+    },
+    {
+      "source": "Eskstrom/moment-comments",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[Open the Figma concept](https://www.figma.com/design/qMnajfGENfkplGhmD8pVNC/Moment-Comments-%25E2%2580%2594-AI-Timed-Short-Video-Concept?node-id=1-2) \u00b7 [View the backed-up SVG board](assets/moment-comments-concept.svg)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/moment-comments/blob/61101952826ebd21bc70146c8b326c5d11d35667/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/opening-explainer",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "This repo includes a GitHub Actions workflow",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/opening-explainer",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "neither is attached to the specific move in front of you. This prototype",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/opening-explainer/blob/bb9bb1b8472b5ad3e5fe07c94adaace6301161ce/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/opening-explainer",
+      "target": "topic:Personal tools & play",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Interactive tool that explains chess opening ideas and common plans",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/opening-explainer"
+      }
+    },
+    {
+      "source": "Eskstrom/referral-loop-simulator",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Operations simulator for referral and follow-up funnel bottlenecks",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/referral-loop-simulator"
+      }
+    },
+    {
+      "source": "Eskstrom/referral-loop-simulator",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Guardrails",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/referral-loop-simulator/blob/4d03538af92cc3628f0a5fb7c517e4c7ab32e8a2/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/referral-loop-simulator",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "referral-loop-simulator",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/referral-loop-simulator"
+      }
+    },
+    {
+      "source": "Eskstrom/referral-loop-simulator",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/referral-loop-simulator/blob/4d03538af92cc3628f0a5fb7c517e4c7ab32e8a2/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/research-orchestra",
+      "target": "topic:AI & agents",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Multi-agent research workflow that produces cited briefs from the web",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/research-orchestra"
+      }
+    },
+    {
+      "source": "Eskstrom/research-orchestra",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Question \u2192 research plan \u2192 source collection \u2192 evidence notes \u2192 synthesis \u2192 cited brief",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/research-orchestra",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Multi-agent research workflow that produces cited briefs from the web",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/research-orchestra"
+      }
+    },
+    {
+      "source": "Eskstrom/research-orchestra",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "A proposed multi-agent research workflow for turning a question into a concise, source-linked brief. Each step has a clear responsibility so the process stays auditable rather than feeling like a black box.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/research-orchestra",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design principles",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/research-orchestra",
+      "target": "topic:Personal tools & play",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "- **Planner** \u2014 frames the question and identifies evidence needed.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/research-orchestra/blob/db0f12044974b508b4eca11a30e0368cb42cf6e8/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/return-risk-explainer",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Guardrails",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/return-risk-explainer/blob/e0fa1a09296aa60c9af15fa5d385c7d675f53eb2/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/return-risk-explainer",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "[Portfolio](https://eskstrom.github.io/) \u00b7 [Related projects](https://eskstrom.github.io/?category=product-service-design#library)",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/return-risk-explainer/blob/e0fa1a09296aa60c9af15fa5d385c7d675f53eb2/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/seasonal-campaign-launch-readiness",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "3. **Stage gates for readiness:** teams advance on evidence, not a subjective percent-complete update.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness/blob/105f394eb2c41c6170e07db29dcc9177cbcc53a2/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/seasonal-campaign-launch-readiness",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "seasonal-campaign-launch-readiness",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness"
+      }
+    },
+    {
+      "source": "Eskstrom/seasonal-campaign-launch-readiness",
+      "target": "topic:Trust & governance",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "The Home Depot's Spring Starts promotion ran March 19-April 1, 2026 across stores, homedepot.com, and the mobile app. A campaign with that footprint can only launch predictably when Strategy, Media, Creative/Agency, Product, IT, and channel",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness/blob/105f394eb2c41c6170e07db29dcc9177cbcc53a2/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/seasonal-campaign-launch-readiness",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "seasonal-campaign-launch-readiness",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/seasonal-campaign-launch-readiness"
+      }
+    },
+    {
+      "source": "Eskstrom/workflow-exception-navigator",
+      "target": "topic:Evaluation & evidence",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Follow a synthetic exception from detection through routing to evidence-backed closure. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/workflow-exception-navigator",
+      "target": "topic:Workflow & operations",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "workflow-exception-navigator",
+        "source": "Repository metadata",
+        "url": "https://github.com/Eskstrom/workflow-exception-navigator"
+      }
+    },
+    {
+      "source": "Eskstrom/workflow-exception-navigator",
+      "target": "topic:Discovery & growth",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "Follow a synthetic exception from detection through routing to evidence-backed closure. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md"
+      }
+    },
+    {
+      "source": "Eskstrom/workflow-exception-navigator",
+      "target": "topic:Design & experience",
+      "relation": "mentions_topic",
+      "basis": "Keyword match in repository name, description or README; not a dependency.",
+      "evidence": {
+        "excerpt": "## Design focus",
+        "source": "README",
+        "url": "https://github.com/Eskstrom/workflow-exception-navigator/blob/39f4519ecd6e50b627ae54123fcee463df69cd17/README.md"
+      }
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Sumukh Gadavilli — Product, Design & Play
 
+## Project Atlas — an additional exploration route
+
+[Explore the public project map](https://eskstrom.github.io/project-atlas/) · [Vector vs graph: advantages and tradeoffs](https://eskstrom.github.io/project-atlas/tradeoffs.html)
+
+The main portfolio and selected case studies remain the primary experience. Atlas adds a searchable public GitHub snapshot with shared-theme paths, evidence stages and source links. Connections are keyword-derived topic associations, not verified dependencies; code presence does not establish production readiness.
+
+`src/project-atlas/` contains only the approved public export. The site build copies it into `docs/project-atlas/` and validates visibility. Never add the full local snapshot, private graph, credentials or `.env` files. Public visibility is collection-time state: refresh and republish if a repository becomes private. The comparison explains the local JSON implementation and proposes a fair evaluation; it does not report a dense-vector benchmark.
+
 **[Explore the portfolio](https://eskstrom.github.io/)** · [All projects](PROJECTS.md) · [LinkedIn](https://www.linkedin.com/in/sumukh-gadavilli/)
 
 A portfolio of healthcare workflows, product and service design, new feature concepts, and tools worth playing with. Six selected projects lead into a complete collection organized by category.
